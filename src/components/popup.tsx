@@ -1,4 +1,4 @@
-import { XMarkIcon, XCircleIcon } from "@heroicons/react/24/outline"
+import { XCircleIcon } from "@heroicons/react/24/outline"
 import { useRouter } from "next/navigation"
 import React, { FormEvent, SetStateAction } from "react"
 

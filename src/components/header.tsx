@@ -26,7 +26,7 @@ export default function Header() {
                 // width={1920}
                 // height={880}
                 layout="fill"
-                className="object-cover "
+                className="object-cover sm:hidden"
             />
             <div className="absolute left-0 top-0 h-full w-2/3 linear z-10 sm:block hidden"></div>
             <div className="sm:grid z-50 sm:grid-cols-2 sm:gap-12 flex flex-col-reverse sm:px-0 px-4 w-full max-w-6xl">
