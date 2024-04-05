@@ -23,13 +23,13 @@ export default function Popup({ handleStatus, status }: PopupProps) {
                 <XCircleIcon onClick={() => handleStatus(!status)} className="text-my absolute right-4 top-4 h-10 w-10 cursor-pointer" />
                 <h2 className="text-my text-2xl sm:text-3xl font-bold text-left sm:text-center pe-8">Preencha os campos abaixo para receber a aula</h2>
                 <div className="flex flex-col gap-3">
-                    <input className="inpt" type="text" placeholder="Nome" />
-                    <input className="inpt" type="email" placeholder="Seu melhor email" />
-                    <input className="inpt" type="phone" placeholder="(XX) 9 9999-9999" />
-                    <input className="inpt" type="text" placeholder="Qual é o área/nicho do seu negócio ?" />
-                    <input className="inpt" type="text" placeholder="Qual é a sua maior dificuldade hoje?" />
-                    <input className="inpt" type="text" placeholder="Qual seu faturamento hoje? " />
-                    <input className="inpt" type="text" placeholder="Quantas pessoas você tem na equipe?" />
+                    <input required className="inpt" type="text" placeholder="Nome" />
+                    <input required className="inpt" type="email" placeholder="Seu melhor email" />
+                    <input required className="inpt" type="phone" placeholder="(XX) 9 9999-9999" />
+                    <input required className="inpt" type="text" placeholder="Qual é o área/nicho do seu negócio ?" />
+                    <input required className="inpt" type="text" placeholder="Qual é a sua maior dificuldade hoje?" />
+                    <input required className="inpt" type="text" placeholder="Qual seu faturamento hoje? " />
+                    <input required className="inpt" type="text" placeholder="Quantas pessoas você tem na equipe?" />
                     <button
                         className="bg-[#0daa4f] rounded text-white py-2 text-center sm:max-w-sm w-full text-lg font-semibold"
                     >Quero acessar a aula

@@ -26,12 +26,12 @@ export default function Header() {
                 // width={1920}
                 // height={880}
                 layout="fill"
-                className="object-cover sm:hidden"
+                className="object-cover sm:hiVoou dden"
             />
-            <div className="absolute left-0 top-0 h-full w-2/3 linear z-10 sm:block hidden"></div>
-            <div className="sm:grid z-50 sm:grid-cols-2 sm:gap-12 flex flex-col-reverse sm:px-0 px-4 w-full max-w-6xl">
+            <div className="absolute left-0 top-0 h-full w-3/4 linear z-10 sm:block hidden"></div>
+            <div className="sm:grid z-50 sm:grid-cols-2 sm:gap-4 flex flex-col-reverse sm:px-0 px-4 w-full max-w-6xl">
                 <div className="">
-                    <div className="flex flex-col sm:justify-start justify-end items-start gap-2 text-left max-w-2xl">
+                    <div className="flex flex-col sm:justify-start justify-end items-start gap-2 text-left max-w-2xl pb-12 sm:pb-0">
                         <div className="w-40 sm:w-56">
                             <Image
                                 src="/images/logo.png"
@@ -53,7 +53,7 @@ export default function Header() {
                                 <span>Clique no botão abaixo para ter acesso a aula</span>
                                 <ArrowDownCircleIcon className="h-5 w-5" />
                             </p>
-                            <h1 className="text-[#e8cfb9] sm:text-my text-2xl sm:text-4xl sm:font-extrabold font-bold">Descubra qual foi a estratégia que me fez investir apenas 2 mil em tráfego e faturar R$ 315 mil</h1>
+                            <h1 className="text-[#e8cfb9] sm:text-my text-2xl sm:text-4xl sm:font-extrabold font-bold">Descubra qual foi a estratégia que me fez investir apenas 2 mil em tráfego e faturar R$ 315.000</h1>
                             <p className="text-[#e8cfb9] sm:text-my sm:text-lg max-w-xl">Em uma aula gratuita você terá acesso à <strong>estratégia que vendeu mais de R$ 300.000</strong> em um lançamento.</p>
                             <p className="text-[#e8cfb9] sm:text-my flex flex-col gap-2 text-base  sm:hidden">
                                 <span>Clique no botão abaixo para ter acesso a aula:</span>
