@@ -31,7 +31,7 @@ export default function Header() {
             <div className="absolute left-0 top-0 h-full w-3/4 linear z-10 sm:block hidden"></div>
             <div className="sm:grid z-50 sm:grid-cols-2 sm:gap-4 flex flex-col-reverse sm:px-0 px-4 w-full max-w-6xl">
                 <div className="">
-                    <div className="flex flex-col sm:justify-start justify-end items-start gap-2 text-left max-w-2xl pb-12 sm:pb-0">
+                    <div className="flex flex-col sm:justify-start justify-end items-start gap-2 text-left max-w-2xl pb-16 sm:pb-0">
                         <div className="w-40 sm:w-56">
                             <Image
                                 src="/images/logo.png"
