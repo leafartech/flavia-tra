@@ -20,7 +20,7 @@ export default function Page() {
 
     return (
         <div>
-            <header className="min-h-screen w-full flex justify-center items-center px-4 grad-2">
+            <header className="min-h-screen sm:py-12 xl:py-2 w-full flex justify-center items-center px-4 grad-2">
                 <div className="flex flex-col items-center gap-8 max-w-4xl text-center">
                     <h1 className="text-3xl sm:text-4xl font-bold text-[#74062f]">Uma nova forma de se posicionar, comunicar e vender mentorias e serviços no Instagram</h1>
                     <div className="relative w-full">
