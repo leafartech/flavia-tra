@@ -34,7 +34,7 @@ export default function Header() {
                     <div className="flex flex-col sm:justify-start justify-end items-start gap-2 text-left max-w-2xl pb-20 sm:pb-0">
                         <div className="w-40 sm:w-56">
                             <Image
-                                src="/images/WhatsApp Image 2024-04-11 at 11.12.13.jpeg"
+                                src="/images/logo.png"
                                 alt="Flavia Tramontin logo"
                                 width={210}
                                 height={133}
