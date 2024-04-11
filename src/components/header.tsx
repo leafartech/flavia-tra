@@ -53,7 +53,7 @@ export default function Header() {
                                 <span>Clique no botão abaixo para ter acesso a aula</span>
                                 <ArrowDownCircleIcon className="h-5 w-5" />
                             </p>
-                            <h1 className="text-[#e8cfb9] sm:text-my text-2xl sm:text-4xl sm:font-extrabold font-bold">Procure qual foi a estratégia que me fez investir apenas 2 mil em tráfego e faturar R$ 315.000</h1>
+                            <h1 className="text-[#e8cfb9] sm:text-my text-2xl sm:text-4xl sm:font-extrabold font-bold">Descubra qual foi a estratégia que me fez investir apenas 2 mil em tráfego e faturar R$ 315.000</h1>
                             <p className="text-[#e8cfb9] sm:text-my sm:text-lg max-w-xl">Em uma aula gratuita você terá acesso à <strong>estratégia que vendeu mais de R$ 300.000</strong> em um lançamento.</p>
                             <p className="text-[#e8cfb9] sm:text-my flex flex-col gap-2 text-base  sm:hidden">
                                 <span>Clique no botão abaixo para ter acesso a aula:</span>
